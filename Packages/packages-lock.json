@@ -1,5 +1,50 @@
 {
   "dependencies": {
+    "com.microsoft.mixedreality.sceneunderstanding": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.sceneunderstanding-0.6.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.microsoft.mixedreality.toolkit.examples": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.microsoft.mixedreality.toolkit.foundation": "2.7.3",
+        "com.microsoft.mixedreality.toolkit.extensions": "2.7.3"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.extensions": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.microsoft.mixedreality.toolkit.foundation": "2.7.3"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.microsoft.mixedreality.toolkit.standardassets": "2.7.3"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.planefinding": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.1.4"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.13",
       "depth": 0,
