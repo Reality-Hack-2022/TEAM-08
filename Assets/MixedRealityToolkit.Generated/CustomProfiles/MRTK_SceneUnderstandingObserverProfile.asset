@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a66f7659243ab748891f032ff4477e2, type: 3}
-  m_Name: DemoSceneUnderstandingObserverProfile
+  m_Name: MRTK_SceneUnderstandingObserverProfile
   m_EditorClassIdentifier: 
   isCustomProfile: 1
   startupBehavior: 0
@@ -20,21 +20,21 @@ MonoBehaviour:
   updateInterval: 5
   updateOnceInitialized: 1
   autoUpdate: 1
-  defaultPhysicsLayer: 0
-  surfaceTypes: 8
+  defaultPhysicsLayer: 31
+  surfaceTypes: 2
   instantiationBatchRate: 10
-  defaultMaterial: {fileID: 2100000, guid: 47e3f30b63c807b468eab8be17a66586, type: 2}
-  defaultWorldMeshMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 2100000, guid: a037e27e6120c174ba7ea7b97f9bc8c2, type: 2}
+  defaultWorldMeshMaterial: {fileID: 2100000, guid: a037e27e6120c174ba7ea7b97f9bc8c2, type: 2}
   shouldLoadFromFile: 0
   serializedScene: {fileID: 0}
   createGameObjects: 1
-  requestPlaneData: 0
+  requestPlaneData: 1
   requestMeshData: 1
-  inferRegions: 0
+  inferRegions: 1
   firstAutoUpdateDelay: 1
   worldMeshLevelOfDetail: 1
   usePersistentObjects: 1
   queryRadius: 10
-  requestOcclusionMask: 0
+  requestOcclusionMask: 1
   occlusionMaskResolution: {x: 256, y: 256}
   orientScene: 1
