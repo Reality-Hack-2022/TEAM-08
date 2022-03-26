@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Touch : MonoBehaviour
 {
-    public GameObject HandObject;
+    //public GameObject HandObject;
     public Material _outcome;
     private Material _original;
 
@@ -17,14 +17,7 @@ public class Touch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.transform.position, HandObject.transform.position) < 0.3f)
-        {
-            //this.GetComponent<Renderer>().material = _outcome;
-        }
-        else 
-        { 
-            //this.GetComponent<Renderer>().material = _original;  
-        }
+
     }
 
     public void ChangeMaterial()

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: RealityHack2022
-  productName: MRTK
+  productName: PortalReef
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -141,9 +141,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: -1377604227375564374, guid: e246bad4f86f0ec4098278b7447d33a2, type: 2}
   - {fileID: -1432360930574576422, guid: 886584f5fb4b75f44a3923de7ab4aa10, type: 2}
   - {fileID: 7212596118560079449, guid: 246cd26266a117343ba3cf852403ecc9, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
