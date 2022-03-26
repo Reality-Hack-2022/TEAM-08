@@ -14,15 +14,15 @@ public class HandDetection : MonoBehaviour
     public GameObject leftHandIndexMarker;
     public GameObject rightHandIndexMarker;
 
-    GameObject leftIndexObject;
-    GameObject rightIndextObject;
+    //GameObject leftIndexObject;
+    //GameObject rightIndextObject;
 
     MixedRealityPose indexPose, thumbPose, middlePose;
 
     void Start()
     {
-        leftIndexObject = Instantiate(leftHandIndexMarker, this.transform);
-        rightIndextObject = Instantiate(rightHandIndexMarker, this.transform);
+        //leftIndexObject = Instantiate(leftHandIndexMarker, this.transform);
+        //rightIndextObject = Instantiate(rightHandIndexMarker, this.transform);
     }
 
     void Update()
@@ -33,21 +33,22 @@ public class HandDetection : MonoBehaviour
         float ringCurl = HandPoseUtils.RingFingerCurl(Handedness.Both);
         float pinkyCurl = HandPoseUtils.PinkyFingerCurl(Handedness.Both);
 
-        /*
-        leftIndexObject.GetComponent<Renderer>().enabled = false;
+        
+        //leftIndexObject.GetComponent<Renderer>().enabled = false;
         if (HandJointUtils.TryGetJointPose(TrackedHandJoint.IndexTip, Handedness.Left, out indexPose))
         {
-            leftIndexObject.GetComponent<Renderer>().enabled = true;
-            leftIndexObject.transform.position = indexPose.Position;
+            //leftIndexObject.GetComponent<Renderer>().enabled = true;
+            rightHandIndexMarker.transform.position = indexPose.Position;
         }
 
-        rightIndextObject.GetComponent<Renderer>().enabled = false;
+       // rightIndextObject.GetComponent<Renderer>().enabled = false;
         if (HandJointUtils.TryGetJointPose(TrackedHandJoint.IndexTip, Handedness.Right, out indexPose))
         {
-            rightIndextObject.GetComponent<Renderer>().enabled = true;
-            rightIndextObject.transform.position = indexPose.Position;
+            //rightIndextObject.GetComponent<Renderer>().enabled = true;
+            leftHandIndexMarker.transform.position = indexPose.Position;
         }
-        */
+        
+        /*
         rightIndextObject.GetComponent<Renderer>().enabled = false;
         if (HandJointUtils.TryGetJointPose(TrackedHandJoint.IndexTip, Handedness.Right, out indexPose) && HandJointUtils.TryGetJointPose(TrackedHandJoint.ThumbTip, Handedness.Right, out thumbPose))
         {
@@ -57,5 +58,6 @@ public class HandDetection : MonoBehaviour
                 rightIndextObject.transform.position = indexPose.Position;
             }
         }
+        */
     }
 }
