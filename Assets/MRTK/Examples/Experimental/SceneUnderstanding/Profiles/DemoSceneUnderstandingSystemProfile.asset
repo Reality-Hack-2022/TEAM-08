@@ -27,4 +27,4 @@ MonoBehaviour:
     componentName: Windows Scene Understanding Observer
     priority: 0
     runtimePlatform: 8
-    observerProfile: {fileID: 11400000, guid: 4b3d606de007ee84cbaa3cf70f9c7114, type: 2}
+    observerProfile: {fileID: 11400000, guid: e60fbcbefd70c79458e5a7f5f88154fa, type: 2}
