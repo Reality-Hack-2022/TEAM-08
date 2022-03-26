@@ -1,0 +1,14 @@
+# Blender MTL File: 'coral bed2.blend'
+# Material Count: 1
+
+newmtl _20941_Brain_Coral_v1_NEW_20941_Brain_Coral_v120941_Brain_Coral
+Ns 47.742390
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.450000 0.450000 0.450000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Bump 20941_Brain_Coral_Spec_v1.jpg
+map_Kd C:\\Blender Projects for MIT Hack\\models\\coral\\latest\\Brain_Coral_v1_L1.123c952dcd3e-dc3a-41a5-b56e-548475a0de97\\20941_Brain_Coral_Diff_v1.jpg
